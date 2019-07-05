@@ -20,7 +20,9 @@ module.exports = (api, opts, rootOptions) => {
         'babel-plugin-import': '^1.8.0'
       }
     })
-  } else if (opts.customTheme) {
+  }
+
+  if (opts.customTheme) {
     api.render({
       './src/vant-variables.less': './templates/src/vant-variables.less'
     })

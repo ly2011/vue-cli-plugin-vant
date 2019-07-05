@@ -7,14 +7,14 @@
         <code v-text="'<Button>'"></code>
         below
       </p>
-      <Button type="primary">Button</Button>
+      <van-button type="primary">Button</van-button>
     </div>
     <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from '@/components/HelloWorld.vue'
 export default {
   name: 'app',
   components: {
